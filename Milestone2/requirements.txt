@@ -1,1 +1,16 @@
-
+accelerate
+bcrypt
+bitsandbytes
+faker
+joblib
+kaggle
+kagglehub
+numpy
+pandas
+plotly
+pyjwt
+pyngrok
+scikit-learn
+streamlit
+streamlit-option-menu
+transformers
