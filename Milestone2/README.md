@@ -96,37 +96,39 @@ All images below are loaded directly from the `screenshots/` folder next to this
 exists at the exact path shown under its heading, GitHub will render it inline automatically when this README
 is viewed on the repository page — no extra setup needed.
 
-### Home page
+### Home
 KPI overview shown immediately after login.
 
-![Home page](screenshots/home.png)
+![Home](screenshots/home.png)
 
-### AI Copilot
-Prompt used: "Suggest one action to reduce staff attrition at a QSR outlet with high overtime hours."
+### Locking
+Progressive account lockout — a triggered lockout message after repeated failed login attempts, and the OTP
+resend cooldown message.
 
-![AI Copilot prompt and response](screenshots/copilot.png)
+![Locking](screenshots/Locking.png)
 
-### Weather Demo
-A seeded city and its live weather / demand-impact result.
+### Agent1
+Agent 1 — Workforce Attrition prediction (age, satisfaction, overtime, tenure, income, work-life balance).
 
-![Weather Demo](screenshots/weather_demo.png)
+![Agent1](screenshots/Agent1.png)
 
-### Outlet Tiers (KMeans 4-tier clustering)
-The 10 seeded outlets split into Excellent / Good / Needs Attention / Critical.
+### Agent2
+Agent 2 — Outlet Territory Clustering: simulate a new outlet's revenue and order count, and predict its
+KMeans tier (Excellent / Good / Needs Attention / Critical).
 
-![Outlet Tiers page](screenshots/outlet_tiers.png)
+![Agent2](screenshots/Agent2.png)
+![Agent2](screenshots/Agent21.png)
+### Agent3
+Agent 3 — Inventory & Weather Demand: SKU stockout risk and weather-driven demand impact.
 
-### Admin Panel -> ML Model Card
-All 3 agents' metrics (ROC-AUC / R²) plus KMeans tiering silhouette score.
+![Agent3](screenshots/Agent3.png)
 
-![Admin ML Model Card](screenshots/admin_model_card.png)
+### Analytics
+AI Copilot / Analytics view — prompt and synthesized response (Ask Copilot, Debate View, or Generate ERP Action).
 
-### Admin Panel -> Add / Delete / Unlock user actions
-User lifecycle management in action.
+![Analytics](screenshots/Analytics.png)
 
-![Admin Add/Delete/Unlock](screenshots/admin_lifecycle.png)
+### Admin
+Admin Dashboard — System Health, User Management (Add/Delete/Unlock), and ML Model Card tabs.
 
-### Progressive lockout & OTP cooldown messages
-A triggered lockout message and an OTP resend cooldown message.
-
-![Lockout and OTP cooldown](screenshots/lockout_otp.png)
+![Admin](screenshots/Admin.png)
